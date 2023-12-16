@@ -1,0 +1,57 @@
+html, body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+  width: 430px;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+    width: 430px;
+    height: 932px;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+  flex: 1;
+}
+
+
+#footer {
+  background-color: #18a4e6; /* Adjust color as needed */
+  padding-top: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 430px;
+  height: 80px;
+}
+
+#footer .column {
+  width: 25%; /* 4 columns, each taking 25% of the width */
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+/* Add media query for responsiveness */
+@media screen and (max-width: 430px) {
+  #footer .column {
+    width: 100%; /* On small screens, make each column take 100% width */
+  }
+}
+.bx{
+    color: #ffffff; /* Optional: text color */
+}
+.textF{
+    font-size: 15px;
+    color: #ffffff;
+}
