@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  display: table-cell;
+  display: fixed;
   vertical-align: middle;
     width: 430px;
     height: 932px;
@@ -17,10 +17,52 @@ body {
     padding: 0;
 }
 
+nav{
+  background-color: #18a4e6;
+  height: 40px;
+  padding-top: 10px;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 60px;
+}
+.nav-item {
+  line-height:80px;
+  }
+
 main {
   flex: 1;
 }
 
+.headContent{
+  display: flex;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  border-radius: 0 20px 20px 0;
+  padding-top: 5px;
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  color: white;
+  background-color: #ceac16;
+}
+
+.fitur{
+  padding: 20px 50px ;
+  display: flex;
+  
+}
+.btnX{
+  display: flex;
+  padding-top: 10px;
+  justify-content: center;
+  background-color: #ceac16;
+  width: 60px;
+  height: 60px;
+}
+
+.logo{
+  width: 90px;
+  height: 90px;
+}
 
 #footer {
   background-color: #18a4e6; /* Adjust color as needed */
@@ -30,6 +72,7 @@ main {
   bottom: 0;
   width: 430px;
   height: 80px;
+  border-radius: 20px 20px 0px 0;
 }
 
 #footer .column {
